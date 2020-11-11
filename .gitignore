@@ -1,7 +1,6 @@
 #Custom ignore
 .vscode/
 *.json
-*.cache
 *.tmp
 *.yml
 *.sqlite*

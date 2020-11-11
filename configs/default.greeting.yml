@@ -1,11 +1,11 @@
 api:
-    hitokoto: "https://v1.hitokoto.cn/" # 请求一言接口的API
-    image: "https://cn.bing.com/HPImageArchive.aspx" # 请求bing接口的API
-    thread: 8 # 同时下载图片的线程数
+    hitokoto: "https://v1.hitokoto.cn/"
+    image: "https://cn.bing.com/HPImageArchive.aspx"
+    thread: 8
 
 custom:
     time:
-        hours: 8 # 目前没用
+        hours: 8
     format: |
         今天是{date}
         {image}

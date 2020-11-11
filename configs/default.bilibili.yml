@@ -1,15 +1,12 @@
 api:
-    # API相关设定
-    address: https://api.imjad.cn/bilibili/v2/ # 请求的API网页地址
-    retries: 3 # 请求出错时的重试次数
+    address: https://api.imjad.cn/bilibili/v2/
+    retries: 3
 
 customize:
     regexp:
-        # 用来匹配的正则表达式
         av: '[aA][vV](\d{1,12})'
         bv: "BV[a-zA-Z0-9]{8,12}"
 
-    # 返回消息格式
     video: |
         {cover}
         标题:“{title}”
