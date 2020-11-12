@@ -8,9 +8,10 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 from utils.botConfig import settings
 from utils.decorators import CatchRequestsException
-from utils.exception import BotNotFoundError, BotRequestError
+from utils.exception import BotRequestError
 from utils.network import NetworkUtils
 from utils.objects import convertImageFormat
+from utils.tmpFile import tmpFile
 
 from .config import Config
 
