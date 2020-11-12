@@ -11,4 +11,4 @@ nonebot~=1.8.0
 pydantic~=1.7
 requests~=2.24.0
 seaborn~=0.11.0
-wordcloud~=1.8.0
+wordcloud~=1.8.1
