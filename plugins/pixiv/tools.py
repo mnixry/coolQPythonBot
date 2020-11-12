@@ -10,7 +10,7 @@ from utils.botConfig import settings
 from utils.decorators import CatchRequestsException
 from utils.exception import BotNotFoundError, BotRequestError
 from utils.network import NetworkUtils
-from utils.tmpFile import tmpFile
+from utils.objects import convertImageFormat
 
 from .config import Config
 
