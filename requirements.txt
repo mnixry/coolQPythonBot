@@ -9,6 +9,6 @@ loguru~=0.5.3
 lxml~=4.6.1
 nonebot~=1.8.0
 pydantic~=1.7
-requests~=2.24.0
+requests~=2.25.1
 seaborn~=0.11.0
 wordcloud~=1.8.0
